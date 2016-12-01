@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html ng-app="AllGifted" ng-controller="RegisterCtrl" class="no-js css-menubar" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="bootstrap admin template">
+    <meta name="author" content="">
+    <title>All Gifted LLC</title>
+    <link rel="apple-touch-icon" href="../../Assets/images/apple-touch-icon.png">
+    <link rel="shortcut icon" href="../../Assets/images/favicon.ico">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../../Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../Assets/css/bootstrap-extend.min.css">
+    <link rel="stylesheet" href="../../Assets/css/site.min.css">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../../Assets/vendor/animsition/animsition.css">
+    <link rel="stylesheet" href="../../Assets/vendor/asscrollable/asScrollable.css">
+    <link rel="stylesheet" href="../../Assets/vendor/switchery/switchery.css">
+    <link rel="stylesheet" href="../../Assets/vendor/intro-js/introjs.css">
+    <link rel="stylesheet" href="../../Assets/vendor/slidepanel/slidePanel.css">
+    <link rel="stylesheet" href="../../Assets/vendor/flag-icon-css/flag-icon.css">
+    <!-- Page -->
+    <link rel="stylesheet" href="../../Assets/css/register.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="../../Assets/fonts/web-icons/web-icons.min.css">
+    <link rel="stylesheet" href="../../Assets/fonts/brand-icons/brand-icons.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500'>
+
+    <script src="../../Assets/vendor/modernizr/modernizr.js"></script>
+    <script src="../../Assets/vendor/breakpoints/breakpoints.js"></script>
+    <script>
+        Breakpoints();
+    </script>
+</head>
+<body class="page-register layout-full">
+
+    <!-- Page -->
+    <div class="page animsition vertical-align text-center" data-animsition-in="fade-in"
+         data-animsition-out="fade-out">
+        <div class="page-content vertical-align-middle">
+            <div class="brand">
+                <img class="brand-img" src="../../Assets/images/logo.png" alt="...">
+                <h2 class="brand-text">All Gifted LLC</h2>
+            </div>
+            <p>Sign up</p>
+            <form method="post" role="form">
+                <div class="form-group">
+                    <label class="sr-only" for="inputName">Name</label>
+                    <input type="text" class="form-control" id="inputName" name="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="inputPassword" name="password"
+                           placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="inputPasswordCheck">Retype Password</label>
+                    <input type="password" class="form-control" id="inputPasswordCheck" name="passwordCheck"
+                           placeholder="Confirm Password">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+            </form>
+            <p>Have account already? Please go to <a ng-href="{{alg}}" target="_self">Sign In</a></p>
+            <footer class="page-copyright">
+                <p>ALL GIFTED LLC © 2016. All RIGHTS RESERVED.</p>
+            </footer>
+        </div>
+    </div>
+    <!-- End Page -->
+    <!-- angular -->
+    <script src="../../Assets/angular/angular-core/angular.js"></script>
+    <script src="../../Assets/angular/angular-core/angular-animate.js"></script>
+    <script src="../../Assets/angular/angular-core/angular-route.js"></script>
+    <script src="../../Assets/angular/angular-core/angular-sanitize.js"></script>
+    <script src="../../Assets/angular/angular-core/angular-cookies.js"></script>
+    <script src="../../Assets/angular/vendor/angular-agility.min.js"></script>
+    <script src="../../Assets/angular/vendor/xeditable.js"></script>
+    <script src="../../Assets/angular/vendor/angular-loading-bar.js"></script>
+    <script src="../../Assets/angular/vendor/jcs-auto-validate.min.js"></script>
+    <script src="../../Assets/angular/vendor/ng-csv.min.js"></script>
+    <script src="../../Assets/angular/vendor/autocomplete.js"></script>
+    <script src="../../Assets/angular/vendor/dirPagination.js"></script>
+    <script src="../../Assets/angular/angular-ui/angular-ui-router.js"></script>
+    <script src="../../Assets/angular/angular-ui/ui-bootstrap.js"></script>
+    <script src="../../Assets/angular/angular-ui/ui-bootstrap-tpls.js"></script>
+    <script src="../../Assets/angular/angular-ui/ui-utils.js"></script>
+    <script src="../../Assets/angular/angular-ui/ui-utils-ieshiv.js"></script>
+
+    <script src="../../Controller/AllGiftedCtrl.js"></script>
+    <script src="../../Controller/Core/Core.js"></script>
+    <script src="../../Controller/Stateprovider/SAccess.js"></script>
+    <script src="../../Controller/AccessController/LoginCtrl.js"></script>
+    <script src="../../Controller/AccessController/ForgotPasswordCtrl.js"></script>
+    <script src="../../Controller/AccessController/RegisterCtrl.js"></script>
+    <script src="../../Controller/Stateprovider/SStudent.js"></script>
+    <script src="../../Controller/StudentController/SAcademicAchieversCtrl.js"></script>
+    <script src="../../Controller/StudentController/SAllClassesCtrl.js"></script>
+    <script src="../../Controller/StudentController/SAssignmentCtrl.js"></script>
+    <script src="../../Controller/StudentController/SClassCtrl.js"></script>
+    <script src="../../Controller/StudentController/SDashboardCtrl.js"></script>
+    <script src="../../Controller/StudentController/SGameLeaderCtrl.js"></script>
+    <script src="../../Controller/StudentController/SProfileCtrl.js"></script>
+    <script src="../../Controller/StudentController/ResultsCtrl.js"></script>
+    <script src="../../Controller/Stateprovider/STeacher.js"></script>
+    <script src="../../Controller/TeacherController/AddAssignmentCtrl.js"></script>
+    <script src="../../Controller/TeacherController/AddClassCtrl.js"></script>
+    <script src="../../Controller/TeacherController/AddClassTrackCtrl.js"></script>
+    <script src="../../Controller/TeacherController/AddClassTrackSkillCtrl.js"></script>
+    <script src="../../Controller/TeacherController/AddClassTrackSkillQuestionCtrl.js"></script>
+    <script src="../../Controller/TeacherController/AddCourseCtrl.js"></script>
+    <script src="../../Controller/TeacherController/AddCourseTrackCtrl.js"></script>
+    <script src="../../Controller/TeacherController/AddCourseTrackSkillCtrl.js"></script>
+    <script src="../../Controller/TeacherController/AddCourseTrackSkillQuestionCtrl.js"></script>
+    <script src="../../Controller/TeacherController/AddGameCtrl.js"></script>
+    <script src="../../Controller/TeacherController/AddUserCtrl.js"></script>
+    <script src="../../Controller/TeacherController/AuditLogsCtrl.js"></script>
+    <script src="../../Controller/TeacherController/EditAssignmentCtrl.js"></script>
+    <script src="../../Controller/TeacherController/EditClassCtrl.js"></script>
+    <script src="../../Controller/TeacherController/EditClassTrackCtrl.js"></script>
+    <script src="../../Controller/TeacherController/EditClassTrackSkillCtrl.js"></script>
+    <script src="../../Controller/TeacherController/EditClassTrackSkillQuestionCtrl.js"></script>
+    <script src="../../Controller/TeacherController/EditCourseCtrl.js"></script>
+    <script src="../../Controller/TeacherController/EditCourseTrackCtrl.js"></script>
+    <script src="../../Controller/TeacherController/EditCourseTrackSkillCtrl.js"></script>
+    <script src="../../Controller/TeacherController/EditCourseTrackSkillQuestionCtrl.js"></script>
+    <script src="../../Controller/TeacherController/EditGameCtrl.js"></script>
+    <script src="../../Controller/TeacherController/EditUserCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ManageAssignmentsCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ManageClassesCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ManageClassTracksCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ManageClassTrackSkillQuestionsCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ManageClassTrackSkillsCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ManageCoursesCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ManageCourseTracksCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ManageCourseTrackSkillQuestionsCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ManageCourseTrackSkillsCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ManageGamesCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ManageUsersCtrl.js"></script>
+    <script src="../../Controller/TeacherController/OverallPerformanceCtrl.js"></script>
+    <script src="../../Controller/TeacherController/PaymentsCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ReportsCtrl.js"></script>
+    <script src="../../Controller/TeacherController/ResultsBreakdownCtrl.js"></script>
+    <script src="../../Controller/TeacherController/StudentRadarCtrl.js"></script>
+    <script src="../../Controller/TeacherController/SystemSettingsCtrl.js"></script>
+    <script src="../../Controller/TeacherController/TAcademicAchieversCtrl.js"></script>
+    <script src="../../Controller/TeacherController/TAllClassesCtrl.js"></script>
+    <script src="../../Controller/TeacherController/TAssignmentCtrl.js"></script>
+    <script src="../../Controller/TeacherController/TClassCtrl.js"></script>
+    <script src="../../Controller/TeacherController/TDashboardCtrl.js"></script>
+    <script src="../../Controller/TeacherController/TGameLeaderCtrl.js"></script>
+    <script src="../../Controller/TeacherController/TProfileCtrl.js"></script>
+
+    <!-- Core  -->
+    <script src="../../Assets/vendor/jquery/jquery.js"></script>
+    <script src="../../Assets/vendor/bootstrap/bootstrap.js"></script>
+    <script src="../../Assets/vendor/animsition/jquery.animsition.js"></script>
+    <script src="../../Assets/vendor/asscroll/jquery-asScroll.js"></script>
+    <script src="../../Assets/vendor/mousewheel/jquery.mousewheel.js"></script>
+    <script src="../../Assets/vendor/asscrollable/jquery.asScrollable.all.js"></script>
+    <script src="../../Assets/vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
+    <!-- Plugins -->
+    <script src="../../Assets/vendor/switchery/switchery.min.js"></script>
+    <script src="../../Assets/vendor/intro-js/intro.js"></script>
+    <script src="../../Assets/vendor/screenfull/screenfull.js"></script>
+    <script src="../../Assets/vendor/slidepanel/jquery-slidePanel.js"></script>
+    <!-- Plugins For This Page -->
+    <script src="../../Assets/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+    <!-- Scripts -->
+    <script src="../../Assets/js/core.js"></script>
+    <script src="../../Assets/js/site.js"></script>
+    <script src="../../Assets/js/sections/menu.js"></script>
+    <script src="../../Assets/js/sections/menubar.js"></script>
+    <script src="../../Assets/js/sections/gridmenu.js"></script>
+    <script src="../../Assets/js/sections/sidebar.js"></script>
+    <script src="../../Assets/js/configs/config-colors.js"></script>
+    <script src="../../Assets/js/configs/config-tour.js"></script>
+    <script src="../../Assets/js/components/asscrollable.js"></script>
+    <script src="../../Assets/js/components/animsition.js"></script>
+    <script src="../../Assets/js/components/slidepanel.js"></script>
+    <script src="../../Assets/js/components/switchery.js"></script>
+    <!-- Scripts For This Page -->
+    <script src="../../Assets/js/components/jquery-placeholder.js"></script>
+    <script src="../../Assets/js/components/animate-list.js"></script>
+    <script>
+        (function (document, window, $) {
+            'use strict';
+
+            var Site = window.Site;
+            $(document).ready(function () {
+                Site.run();
+            });
+        })(document, window, jQuery);
+    </script>
+
+</body>
+</html>

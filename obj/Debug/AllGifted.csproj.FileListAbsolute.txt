@@ -1,0 +1,6 @@
+D:\The Dott Solutions\Web Base System Develop\AllGifted\AllGifted\bin\AllGifted.dll.config
+D:\The Dott Solutions\Web Base System Develop\AllGifted\AllGifted\bin\AllGifted.dll
+D:\The Dott Solutions\Web Base System Develop\AllGifted\AllGifted\bin\AllGifted.pdb
+D:\The Dott Solutions\Web Base System Develop\AllGifted\AllGifted\obj\Debug\AllGifted.dll
+D:\The Dott Solutions\Web Base System Develop\AllGifted\AllGifted\obj\Debug\AllGifted.pdb
+D:\The Dott Solutions\Web Base System Develop\AllGifted\AllGifted\obj\Debug\AllGifted.csprojResolveAssemblyReference.cache
